@@ -1,0 +1,184 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="my-design.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="navbar-nav">
+                <div>
+                    <ul class="brand">
+                        <li><img src="https://cdn.pixabay.com/photo/2019/01/23/21/16/pixabay-3951079_960_720.png" alt=""></li>
+
+                    </ul>
+
+                    <ul class="my-nav" id="my-nav">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+
+                    <button class="nav-btn" onclick="openNav(this)" onmouseenter="closeNav(this)">&#9776;</button>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <!--Our Style carousel-->
+
+        <div class="my-row carousel">
+            <div class="first-col"> <img src="https://cdn.pixabay.com/photo/2016/08/01/11/23/love-1560851_960_720.png" alt=""></div>
+            <div class="first-col">
+
+                <h2 align="center" class="carousel-desc">
+                    Contact Us
+                </h2>
+                <br>
+                <p>
+                    <b>
+                    ut dolores pariatur praesentium fuga sunt, asperiores quibusdam rem. Debitis explicabo laboriosam alias? Quidem porro voluptates consectetur accusamus molestiae, laborum ad sequi eveniet amet repellendus aliquid corporis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nemo aut, modi perferendis eum ipsa?
+                    </b>
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+
+        <div class="my-row">
+            <div class="col-new">
+                <h2 align="center"> Quick Contact</h2>
+
+                <form action="#" method="post">
+                    <div class="my-footer" style="width: 80%;">
+
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                        <br><br>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Your email">
+                        <br><br>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="10" style="width: 100%; border-radius: 10px;"></textarea>
+                        <br><br>
+                        <button type="submit" style="background-color: green; width: 30%; margin: 10px; padding: 10px; border-radius: 10px; float: right;">Send</button>
+                    </div>
+                </form>
+
+
+
+            </div>
+            <div class="col">
+                <h2 align="center"> Our Info & Address </h2>
+
+                <p>
+                    iores quis enim ipsam quae, doloribus nisi, omnis eos possimus reprehenderit porro quasi rem expedita? fficiis voluptas eum asperiores? Impedit corrupti voluptates maiores assumenda placeat totam aliquam nulla voluptatem modi quas nobis, dolor, asperiores
+                    sed. Pariatur, impedit quam. Accusantium, non illo minima sapiente voluptate error illum cum quasi nisi quos voluptatibus quaerat dolores aperiam ut ratione mollitia perspicia br
+
+                    <br> <br> ellat! ore cupiditate cum iusto necessitatibus. Natus nihil eius enim hic, quam esse excepturi itaque sequi delectus voluptatum omnis ipsa non repudiandae reprehenderit inventore commodi consequuntur, voluptas saepe dolorem
+                    assumenda ipsam repellat! Voluptas rerum aspernatur eligendi ullam eveniet provident nulla autem incidunt, amet praesentium, blanditiis deserunt iusto dolor in earum.
+                </p>
+                <div>
+                    <ul class="my-footer">
+                        <li>
+                            9811*****
+                        </li>
+                        <li>
+                            123@gmail.com
+                        </li>
+                        <li>
+                            ghodaghod municipality,
+                        </li>
+                        <li>
+                            po box no: 171009
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="my-row" style="background-color: gray;">
+            <div class="col">
+                <h2 align="center"> Contact Address</h2>
+                <ul class="my-footer">
+                    <li>
+                        9811*****
+                    </li>
+                    <li>
+                        123@gmail.com
+                    </li>
+                    <li>
+                        ghodaghod municipality,
+                    </li>
+                    <li>
+                        po box no: 171009
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h2 align="center"> Quick Links </h2>
+                <ul class="my-footer">
+                    <li onmouseover="border(this)" onmouseout="border1(this)">
+                        <a href="index.html" id="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h2 align="center" style="color: red;"> Subscribe Now </h2>
+                <ul class="my-footer">
+                    <input type="text" name="email" placeholder="Your email">
+                    <input type="text" name="name" placeholder="your name">
+
+                    <button type="submit" class="send-btn"> Send </button>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="myjs.js"></script>
+
+
+</body>
+
+</html>

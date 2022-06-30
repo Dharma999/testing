@@ -1,0 +1,211 @@
+.my-nav {
+    display: block;
+}
+
+.brand img {
+    width: 90px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.carousel {
+    background-color: rgb(223, 158, 158);
+    z-index: -2;
+    position: relative;
+}
+
+.carousel img {
+    animation-name: love;
+    animation-duration: 5s;
+    transform: scale(0.8);
+    animation-iteration-count: 100;
+    position: relative;
+    z-index: -1;
+}
+
+@keyframes love {
+    0% {
+        transform: scale(0.8);
+    }
+    33% {
+        transform: scale(0.9);
+    }
+    66% {
+        transform: scale(0.8);
+    }
+}
+
+.my-row {
+    width: 100%;
+    float: left;
+}
+
+.first-col {
+    width: 50%;
+    float: left;
+}
+
+.col {
+    width: 33%;
+    float: left;
+}
+
+
+/* responsive making */
+
+.carousel-desc {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.col-new {
+    width: 66%;
+    float: left;
+}
+
+.main-body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 700px) {
+    .first-col {
+        width: 100%;
+        float: left;
+    }
+    .col-new {
+        width: 100%;
+        float: left;
+    }
+    .col {
+        width: 100%;
+        float: left;
+    }
+    .carousel img {
+        display: none;
+    }
+    .carousel-desc {
+        margin-top: 10px;
+        padding-top: 80px;
+    }
+    .my-side {
+        display: none;
+    }
+    .my-nav {
+        background-color: gray;
+        margin-right: 0px !important;
+        margin-top: 60px;
+        right: 0;
+        position: fixed;
+        width: 50%;
+        height: 50vh;
+        transition: 2s;
+        display: none;
+    }
+    .my-nav li {
+        width: 250px;
+        float: none !important;
+        list-style: none;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        display: block;
+    }
+    .my-nav li a {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    .nav-btn {
+        float: right;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+        display: block !important;
+    }
+    .main-body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+/* nav style */
+
+.navbar-nav {
+    height: 60px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    position: fixed;
+}
+
+.brand {
+    float: left;
+    margin: 5;
+    position: fixed;
+}
+
+.brand li {
+    list-style: none;
+    display: block;
+}
+
+.brand li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+.my-nav {
+    float: right;
+    margin-right: 50px;
+}
+
+.my-nav li {
+    float: left;
+    margin: 2 2;
+    padding: 5 5;
+    list-style: none;
+    display: block;
+}
+
+.my-nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.nav-btn {
+    display: none;
+}
+
+.my-footer li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    margin-left: 50px;
+}
+
+.my-footer li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.my-footer input {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.send-btn {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: red;
+}
